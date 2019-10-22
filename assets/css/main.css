@@ -1,0 +1,129 @@
+/* Font */
+@font-face {
+  font-family: "Slabo27px";
+  src: url("../font/Slabo27px-Regular.ttf");
+}
+
+/* Reset */
+html, body, .container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Body */
+body {
+  background: #0088aa;
+  color: #323232;
+  font-family: "Slabo27px", sans-serif;
+}
+
+/* Anchor */
+a {
+  color: #323232;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #424242;
+}
+
+a:visited {
+  color: #323232;
+}
+
+/* Container */
+.container {
+  background-image: url("../img/kumo.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Text */
+h1 {
+  margin: 0;
+  font-weight: normal;
+  letter-spacing: 0.12em;
+}
+
+h3 {
+  font-size: 92%;
+  font-weight: normal;
+  letter-spacing: 0.12em;
+}
+
+h3 img {
+  width: 14px;
+  vertical-align: middle;
+}
+
+h5 {
+  margin: 0;
+  padding-bottom: 3em;
+  letter-spacing: 0.12em;
+}
+
+p {
+  position: relative;
+  letter-spacing: 0.12em;  
+}
+
+p a:hover {
+  font-weight: bold;
+}
+
+/* IrohaCoding */
+.i {
+  color: #e198b4;
+}
+
+.r {
+  color: #aacf53;
+}
+
+.o {
+  color: #a2d7dd;
+}
+
+.h {
+  color: #f8b862;
+}
+
+.a {
+  color: #dbd0e6;
+}
+
+.c, .o2, .d, .g {
+  color: #888888;
+}
+
+.i2, .n {
+  color: #555555;
+}
+
+/* Snow */
+#snow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.flake {
+  padding-left: 15px;
+  font-family: sans-serif;
+  font-size: 6px;
+  line-height: 24px;
+  position: fixed;
+  color: #e3e3e3;
+  user-select: none;
+  z-index: 100;
+}
+
+.flake:hover {
+  cursor: default;
+}
