@@ -1,38 +1,35 @@
-/* Font */
 @font-face {
   font-family: "Slabo27px";
   src: url("../font/Slabo27px-Regular.ttf");
 }
 
-/* Reset */
-html, body, .container {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-/* Body */
 body {
-  background: #fffff3;
-  color: #323232;
+  background-color: #fff;
+  color: #333;
   font-family: "Slabo27px", sans-serif;
 }
 
-/* Anchor */
 a {
-  color: #323232;
+  color: #333;
   text-decoration: none;
 }
 
 a:hover {
-  color: #424242;
+  color: #888;
 }
 
 a:visited {
-  color: #323232;
+  color: #555;
 }
 
-/* Container */
+html, body, .container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  letter-spacing: 0.16em;
+  line-height: 1.8em;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -40,40 +37,33 @@ a:visited {
   flex-direction: column;
 }
 
-/* Text */
+.wrap {
+  padding: 1em;
+}
+
+h1, h3 {
+  font-weight: normal;
+}
+
 h1 {
   margin: 0;
-  font-weight: normal;
-  letter-spacing: 0.12em;
 }
 
 h3 {
-  font-size: 92%;
-  font-weight: normal;
-  letter-spacing: 0.12em;
-}
-
-h3 img {
-  width: 14px;
-  vertical-align: middle;
+  font-size: 80%;
 }
 
 h5 {
   margin: 0;
-  padding-bottom: 3em;
-  letter-spacing: 0.12em;
+  padding-bottom: 2em;
+  color: #434343;
 }
 
 p {
-  position: relative;
-  letter-spacing: 0.12em;  
+  width: 100%;
+  max-width: 640px;
 }
 
-p a:hover {
-  font-weight: bold;
-}
-
-/* IrohaCoding */
 .i {
   color: #e198b4;
 }
@@ -100,26 +90,4 @@ p a:hover {
 
 .i2, .n {
   color: #555555;
-}
-
-/* Snow */
-#snow {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.flake {
-  padding-left: 15px;
-  font-family: sans-serif;
-  font-size: 6px;
-  line-height: 24px;
-  position: fixed;
-  color: #e3e3e3;
-  user-select: none;
-  z-index: 100;
-}
-
-.flake:hover {
-  cursor: default;
 }
