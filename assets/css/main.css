@@ -34,10 +34,6 @@ a:visited {
 
 /* Container */
 .container {
-  background-image: url("../img/kumo.png");
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
