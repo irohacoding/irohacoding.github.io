@@ -80,3 +80,7 @@ code {
 code b {
   color: #ff0000;
 }
+
+code kbd {
+  color: #666;
+}
