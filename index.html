@@ -1,32 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IrohaCoding</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="shortcut icon" href="assets/img/favicon.png">
-  </head>
-  <body>
-    <div class="container">
-      <div class="wrap">
-        <h1>IrohaCoding</h1>
-        <pre><code>$ mkdir ~/works && cd $_<kbd>&crarr;</kbd>
-$ emacs love.sh<kbd>&crarr;</kbd></code></pre>
-        <pre><code>#!/bin/bash
-
-LOVE=~/works
-COUNT=$(find $LOVE -type f | wc -l)
-
-if [ $COUNT -lt 3 ]; then
-  HEART=$(echo "&lt; 3" | sed -e 's/ //g')
-  echo "$HEART"
-fi</code></pre>
-        <pre><code>$ sudo chmod a+x love.sh<kbd>&crarr;</kbd>
-$ ./love.sh<kbd>&crarr;</kbd></code></pre>
-        <h3>Email: <a href="mailto:info@irohacoding.com">info@irohacoding.com</a></h3>
-        <h5>&copy;IrohaCoding</h5>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IrohaCoding</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" href="assets/img/favicon.png">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>IrohaCoding</h1>
+    </header>
+    <div class="paper">
+      <p class="pencil"></p>
     </div>
-  </body>
+    <footer>
+      <h3>Email: <a href="mailto:info@irohacoding.com">info@irohacoding.com</a></h3>
+      <h5>Written with <span class="heart">&#9829;</span> by <span class="i">I</span><span class="r">r</span><span class="o">o</span><span class="h">h</span><span class="a">a</span><span class="c">C</span><span class="o2">o</span><span class="d">d</span><span class="i2">i</span><span class="n">n</span><span class="g">g</span></h5>
+    </footer>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
 </html>

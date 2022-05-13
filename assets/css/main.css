@@ -1,6 +1,14 @@
+/* Font */
 @font-face {
   font-family: "Ubuntu Condensed";
   src: url("../font/UbuntuCondensed-Regular.ttf");
+}
+
+/* Common Style */
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -8,8 +16,10 @@ body {
   color: #333;
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: 168%;
+  letter-spacing: 0.1em;
 }
 
+/* Anchor style */
 a {
   color: #333;
   text-decoration: none;
@@ -23,64 +33,78 @@ a:visited {
   color: #555;
 }
 
-html, body, .container {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  letter-spacing: 0.16em;
-}
-
+/* Container style */
 .container {
-  width: 100%;
+  width: 90%;
   max-width: 1024px;
   margin: 0 auto;
 }
 
-.wrap {
-  padding: 1em;
-}
-
-h1, h3, h5 {
-  font-weight: normal;
-}
-
+/* Headings style */
 h1 {
   margin: 0;
+  padding: 24px 0;
+  font-weight: normal;
 }
 
 h3 {
   font-size: 80%;
+  font-weight: normal;
 }
 
 h5 {
   margin: 0;
-  padding-bottom: 2em;
-  color: #434343;
+  font-size: 55%;
 }
 
-p {
-  font-family: sans-serif;
-  font-size: 50%;
-  letter-spacing: 0;
+/* Main content */
+.paper {
+  padding: 12px;
+  background-color: #eee;
 }
 
-pre {
-  padding: 0.8em;
-  background-color: #333;
-  color: #ccff00;
-  border-radius: 3px;
-  overflow: auto;
+.pencil {
+  margin: 0;
+  padding: 12px;
+  font-size: 72%;
+  line-height: 1.8em;
 }
 
-code {
-  font-size: 80%;
-  font-family: "Ubuntu Condensed", sans-serif;
+/* Keyboard input symbol color */
+kbd {
+  color: #aaa;
 }
 
-code b {
-  color: #ff0000;
+/* Heart symbol color */
+.heart {
+  color: #ff7878;
 }
 
-code kbd {
-  color: #666;
+/* IrohaCoding logo color */
+.i {
+  color: #e197b4;
+}
+
+.r {
+  color: #aacf53;
+}
+
+.o {
+  color: #a2d7dd;
+}
+
+.h {
+  color: #f8b862;
+}
+
+.a {
+  color: #dbd0e6;
+}
+
+.c, .o2, .d, .g {
+  color: #888888;
+}
+
+.i2, .n {
+  color: #555555;
 }
