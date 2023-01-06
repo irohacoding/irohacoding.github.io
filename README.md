@@ -8,3 +8,8 @@ There is only one person in this team. Iroha is a Japanese word, it means ABC.
 We have developed mobile and web application.
 Our mission is to take over brainchild of curious people until far future, via web.
 Enjoy Coding :D
+
+## Contact
+Email: [info@irohacoding.com](mailto:info@irohacoding.com "info@irohacoding.com")
+
+Twitter: [@irohacoding](https://twitter.com/irohacoding "@irohacoding")
