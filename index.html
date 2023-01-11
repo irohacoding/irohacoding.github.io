@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IrohaCoding</title>
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="icon" href="assets/img/favicon.png">
-</head>
-<body>
-  <div class="container">
-    <header>
-      <h1>IrohaCoding</h1>
-    </header>
-    <div class="paper">
-      <p class="pencil"></p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IrohaCoding</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="assets/img/favicon.png">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+	<h1>IrohaCoding</h1>
+      </header>
+      <div class="paper">
+	<p class="pencil">
+	  1. Open terminal.<br />
+	  $ mkdir ~/works && cd $_<span class="enter">&crarr;</span><br />
+	  $ emacs love.sh<span class="enter">&crarr;</span><br /><br />
+	  2. Write code.<br />
+	  #!/bin/bash<br /><br />
+	  LOVE=~/works<br />
+	  COUNT=$(find $LOVE -type f | wc -l)<br /><br />
+	  if [ $COUNT -lt 3 ]; then<br />
+	  HEART=$(echo "< 3" | sed -e 's/ //g')<br />
+	  echo "$HEART"<br />
+	  fi<br /><br />
+	  3. Run script.<br />
+	  $ sudo chmod a+x love.sh<span class="enter">&crarr;</span><br />
+	  $ ./love.sh<span class="enter">&crarr;</span><br /><br />
+	  (･∀･)&lt;Good job!!
+	</p>
+      </div>
+      <footer>
+	<h3>Email: <a href="mailto:info@irohacoding.com">info@irohacoding.com</a></h3>
+	<h5>Written with <span class="heart">&#9829;</span> by <span class="i">I</span><span class="r">r</span><span class="o">o</span><span class="h">h</span><span class="a">a</span><span class="c">C</span><span class="o2">o</span><span class="d">d</span><span class="i2">i</span><span class="n">n</span><span class="g">g</span></h5>
+      </footer>
     </div>
-    <footer>
-      <h3>Email: <a href="mailto:info@irohacoding.com">info@irohacoding.com</a></h3>
-      <h5>Written with <span class="heart">&#9829;</span> by <span class="i">I</span><span class="r">r</span><span class="o">o</span><span class="h">h</span><span class="a">a</span><span class="c">C</span><span class="o2">o</span><span class="d">d</span><span class="i2">i</span><span class="n">n</span><span class="g">g</span></h5>
-    </footer>
-  </div>
-  <script src="assets/js/main.js"></script>
-</body>
+  </body>
 </html>
