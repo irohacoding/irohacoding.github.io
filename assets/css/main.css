@@ -59,14 +59,15 @@ h5 {
 /* Main content */
 .paper {
   padding: 12px;
-  background-color: #eeeee3;
+  background-color: #f7f7f7;
 }
 
 .pencil {
   margin: 0;
   padding: 12px;
   font-size: 72%;
-  line-height: 1.8em;
+  line-height: 1.6em;
+  overflow: auto;
 }
 
 /* Keyboard input symbol color */

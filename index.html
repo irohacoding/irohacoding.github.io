@@ -10,30 +10,35 @@
   <body>
     <div class="container">
       <header>
-	<h1>IrohaCoding</h1>
+        <h1>IrohaCoding</h1>
       </header>
       <div class="paper">
-	<p class="pencil">
-	  1. Open terminal.<br />
-	  $ mkdir ~/works && cd $_<span class="enter">&crarr;</span><br />
-	  $ emacs love.sh<span class="enter">&crarr;</span><br /><br />
-	  2. Write code.<br />
-	  #!/bin/bash<br /><br />
-	  LOVE=~/works<br />
-	  COUNT=$(find $LOVE -type f | wc -l)<br /><br />
-	  if [ $COUNT -lt 3 ]; then<br />
-	  HEART=$(echo "< 3" | sed -e 's/ //g')<br />
-	  echo "$HEART"<br />
-	  fi<br /><br />
-	  3. Run script.<br />
-	  $ sudo chmod a+x love.sh<span class="enter">&crarr;</span><br />
-	  $ ./love.sh<span class="enter">&crarr;</span><br /><br />
-	  (･∀･)&lt;Good job!!
-	</p>
+        <pre class="pencil">
+1. Open terminal.
+$ mkdir ~/works && cd $_<span class="enter">&crarr;</span>
+$ emacs love.sh<span class="enter">&crarr;</span>
+
+2. Write code.
+#!/bin/bash
+
+LOVE=~/works
+COUNT=$(find $LOVE -type f | wc -l)
+
+if [ $COUNT -lt 3 ]; then
+    HEART=$(echo "< 3" | sed -e 's/ //g')
+    echo "$HEART"
+fi
+
+3. Run script.
+$ sudo chmod a+x love.sh<span class="enter">&crarr;</span>
+$ ./love.sh<span class="enter">&crarr;</span>
+
+(･∀･)&lt;Good job!!</pre>
       </div>
       <footer>
-	<h3>Email: <a href="mailto:info@irohacoding.com">info@irohacoding.com</a></h3>
-	<h5>Written with <span class="heart">&#9829;</span> by <span class="i">I</span><span class="r">r</span><span class="o">o</span><span class="h">h</span><span class="a">a</span><span class="c">C</span><span class="o2">o</span><span class="d">d</span><span class="i2">i</span><span class="n">n</span><span class="g">g</span></h5>
+        <h3>Email: <a href="mailto:info@irohacoding.com">info@irohacoding.com</a></h3>
+        <h5>Written with <span class="heart">&#9829;</span> by <span class="i">I</span><span class="r">r</span><span class="o">o</span><span class="h">h</span><span class="a">a</span><span class="c">C</span><span class="o2">o</span><span class="d">d</span><span class="i2">i</span><span class="n">n</span><span class="g">g</span>
+        </h5>
       </footer>
     </div>
   </body>
