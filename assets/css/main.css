@@ -59,12 +59,14 @@ h5 {
 /* Main content */
 .paper {
   padding: 12px;
-  background-color: #f7f7f7;
+  background-color: #323232;
+  border-radius: 2px;
 }
 
 .pencil {
   margin: 0;
   padding: 12px;
+  color: #ccff33;
   font-size: 72%;
   line-height: 1.6em;
   overflow: auto;
@@ -72,7 +74,7 @@ h5 {
 
 /* Keyboard input symbol color */
 .enter {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 /* Heart symbol color */
