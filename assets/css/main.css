@@ -1,88 +1,91 @@
-/* Font */
+/* Font face */
 @font-face {
-  font-family: "Ubuntu Condensed";
-  src: url("../font/UbuntuCondensed-Regular.ttf");
+  font-family: "JosefinSans";
+  src: url("../font/JosefinSans-ExtraLight.ttf");
+  license: url("../font/OFL.txt");
 }
 
-/* Common Style */
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
+/* Body */
 body {
   background-color: #fff;
   color: #333;
-  font-family: "Ubuntu Condensed", sans-serif;
-  font-size: 168%;
-  letter-spacing: 0.1em;
+  font-size: xx-large;
+  font-family: "JosefinSans", sans-serif;
+  line-height: 1.6em;
+  letter-spacing: 0.06em;
 }
 
-/* Anchor style */
+/* Layout */
+.container {
+  width: 100%;
+}
+
+.row {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+@media screen and (min-width: 1024px) {
+  .column { float: left; }
+  .column.full { width: 100%; }
+  .column.two-thirds { width: 66.7%; }
+  .column.half { width: 50%; }
+  .column.third { width: 33.3%; }
+}
+
+/* Clearfix */
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* Anchor */
 a {
   color: #333;
   text-decoration: none;
-}
-
-a:hover {
-  color: #888;
 }
 
 a:visited {
   color: #555;
 }
 
-/* Container style */
-.container {
-  width: 90%;
-  max-width: 1024px;
-  margin: 0 auto;
+/* Common */
+ul {
+  line-height: 1.2em;
 }
 
-/* Headings style */
-h1 {
-  margin: 0;
-  padding: 24px 0;
-  font-weight: normal;
+ul li {
+  font-size: smaller;
+  font-weight: bold;
 }
 
-h3 {
-  font-size: 80%;
-  font-weight: normal;
+h4 {
+  margin-right: 1em;
+  border-bottom: 1px solid #ccc;
 }
 
-h5 {
-  font-size: 55%;
+/* Header */
+.header {
+  padding-top: 1.2em;
 }
 
-/* Main content */
-.paper {
-  padding: 12px;
-  background-color: #323232;
-  border-radius: 2px;
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: smaller;
 }
 
-.pencil {
-  margin: 0;
-  padding: 12px;
-  color: #ccff33;
-  font-size: 72%;
-  line-height: 1.6em;
-  overflow: auto;
-}
-
-/* Keyboard input symbol color */
-.enter {
-  color: rgba(255, 255, 255, 0.4);
-}
-
-/* Heart symbol color */
-.heart {
-  color: #ff7878;
-}
-
-/* IrohaCoding logo color */
+/* IrohaCoding Logo Color */
 .i {
   color: #e197b4;
 }
