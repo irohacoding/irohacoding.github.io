@@ -9,7 +9,7 @@
 body {
   background-color: #fff;
   color: #333;
-  font-size: xx-large;
+  font-size: x-large;
   font-family: "JosefinSans", sans-serif;
   line-height: 1.6em;
   letter-spacing: 0.06em;
@@ -23,7 +23,7 @@ body {
 .row {
   width: 90%;
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1200px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -32,6 +32,10 @@ body {
   .column.two-thirds { width: 66.7%; }
   .column.half { width: 50%; }
   .column.third { width: 33.3%; }
+}
+
+@media screen and (max-width: 512px) {
+  body { font-size: large; }
 }
 
 /* Clearfix */
@@ -86,30 +90,10 @@ h4 {
 }
 
 /* IrohaCoding Logo Color */
-.i {
-  color: #e197b4;
-}
-
-.r {
-  color: #aacf53;
-}
-
-.o {
-  color: #a2d7dd;
-}
-
-.h {
-  color: #f8b862;
-}
-
-.a {
-  color: #dbd0e6;
-}
-
-.c, .o2, .d, .g {
-  color: #888888;
-}
-
-.i2, .n {
-  color: #555555;
-}
+.i { color: #e197b4; }
+.r { color: #aacf53; }
+.o { color: #a2d7dd; }
+.h { color: #f8b862; }
+.a { color: #dbd0e6; }
+.c, .o2, .d, .g { color: #888888; }
+.i2, .n { color: #555555; }
