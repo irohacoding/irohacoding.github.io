@@ -6,8 +6,8 @@
 
 /* Body */
 body {
-  background-color: #fff;
-  color: #333;
+  background-color: #ffffff;
+  color: #333333;
   font-size: x-large;
   font-family: "JosefinSans", sans-serif;
   line-height: 1.6em;
@@ -20,7 +20,7 @@ body {
 }
 
 .row {
-  width: 90%;
+  width: 92%;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -54,12 +54,12 @@ body {
 
 /* Anchor */
 a {
-  color: #333;
+  color: #555555;
   text-decoration: none;
 }
 
 a:visited {
-  color: #555;
+  color: #777777;
 }
 
 /* Common */
@@ -74,7 +74,7 @@ ul li {
 
 h4 {
   margin-right: 1em;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #cccccc;
 }
 
 /* Header */
