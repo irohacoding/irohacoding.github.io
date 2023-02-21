@@ -22,7 +22,7 @@ body {
 .row {
   width: 92%;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1110px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -54,12 +54,12 @@ body {
 
 /* Anchor */
 a {
-  color: #555555;
+  color: #333333;
   text-decoration: none;
 }
 
 a:visited {
-  color: #777777;
+  color: #555555;
 }
 
 /* Common */
@@ -78,12 +78,12 @@ h4 {
 }
 
 /* Header */
-.header {
+header {
   padding-top: 1.2em;
 }
 
 /* Footer */
-.footer {
+footer {
   text-align: center;
   font-size: smaller;
 }
