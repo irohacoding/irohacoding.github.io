@@ -72,6 +72,15 @@ ul li {
   font-weight: bold;
 }
 
+hr {
+  margin: 0 1em;
+  border: 1px dashed #ccc;
+}
+
+h2 {
+  font-size: smaller;
+}
+
 h4 {
   margin-right: 1em;
   border-bottom: 1px solid #ccc;
@@ -101,6 +110,10 @@ footer {
 
   a:visited {
     color: #888;
+  }
+
+  hr {
+    border: 1px dashed #555;
   }
 
   h4 {
