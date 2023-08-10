@@ -72,11 +72,6 @@ ul li {
   font-weight: bold;
 }
 
-hr {
-  margin: 0 1em;
-  border: 1px dashed #ccc;
-}
-
 h2 {
   font-size: smaller;
 }
@@ -112,16 +107,8 @@ footer {
     color: #888;
   }
 
-  hr {
-    border: 1px dashed #555;
-  }
-
   h4 {
     border-bottom: 1px solid #555;
-  }
-
-  .love {
-    color: #f08080;
   }
 }
 
