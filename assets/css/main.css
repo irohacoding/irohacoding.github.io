@@ -100,11 +100,11 @@ a:visited {
 
 /******** Header styles ********/
 .header {
-  background: #f3f3f3;
+  background: #f8f8f8;
 }
 
 .header h1 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 /******** Works styles ********/
@@ -172,12 +172,3 @@ a:visited {
   padding: 1em 0;
   text-align: center;
 }
-
-/******** IrohaCoding Logo Color ********/
-.i { color: #e197b4; }
-.r { color: #aacf53; }
-.o { color: #a2d7dd; }
-.h { color: #f8b862; }
-.a { color: #dbd0e6; }
-.c, .o2, .d, .g { color: #888; }
-.i2, .n { color: #555; }
